@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif; }
+
+.navigation {
+  padding: 20px;
+  position: absolute; }
+
+.navigation i {
+  cursor: pointer;
+  font-size: 20px; }
+
+.menu {
+  display: none; }
+
+.about {
+  padding: 60px; }
+
+.cover {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover; }
+
+.col-md-6 {
+  padding: 0 40px 40px; }
+
+.outer-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10%; }
+
+.inner-container .intro {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #5b5b5b; }
+.inner-container .name {
+  line-height: 40px; }
+
+/*# sourceMappingURL=style.css.map */
