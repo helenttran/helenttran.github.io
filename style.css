@@ -125,9 +125,20 @@ html, body {
     margin: 0 10% 50px; }
   .project .project-cover {
     padding-bottom: 20px;
+    padding: 5px;
     width: 100%; }
+  .project-gallery {
+    width: 92%; }
+  .project-cover2 {
+    padding-bottom: 20px;
+    width: 50%;
+  }
 
 .about-description {
   text-align: center; }
+
+.col-md-6 {
+  padding: 0px;
+}
 
 /*# sourceMappingURL=style.css.map */
