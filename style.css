@@ -84,7 +84,7 @@ html, body {
   opacity: 0;
   transition: 0.5s ease;
   color: white;
-  background-color: rgba(245, 108, 96, 0.9); }
+  background-color: rgba(247, 210, 198, 1); }
 
 .works-image:hover .overlay {
   opacity: 1; }
