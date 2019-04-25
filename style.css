@@ -124,8 +124,8 @@ html, body {
   margin-right: 0.5rem;
   margin-left: 0.5rem; }
 
-.navbar-brand{
-  margin:auto;
+.navbar-brand img{
+  width:200px;
 }
 
 .project {
