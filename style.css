@@ -1,13 +1,13 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: "Work Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 .menu {
   display: none; }
 
 .logo {
-  margin:auto;
+  margin: auto;
 }
 
 .cover {
@@ -16,7 +16,7 @@ html, body {
   object-fit: cover; }
 
 .col-md-4 {
-  padding: 0 10px 10px 0; }
+  padding: 0 10px 0px 0; }
 
 .holder {
   margin-left: auto;
@@ -25,23 +25,31 @@ html, body {
   width: 100%; }
 
 .outer-container {
-  height: calc(100vh - 104px);
+  height: calc(100vh - 300px);
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 10%; }
+}
 
 .inner-container .intro {
+  font-family: "Work Sans", sans-serif;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1px;
-  color: #5b5b5b; }
+  font-size: 14px;
+  color: #5b5b5b;
+}
 .inner-container .name {
-  line-height: 40px; }
+  line-height: 40px;
+}
 
 .works-section {
   width: calc(100% - -10px);
   margin-bottom: 50px; }
+
+.works-image {
+  position: relative;
+}
 
 .works-image img {
   vertical-align: top;
@@ -50,22 +58,11 @@ html, body {
 
 .image-cover {
   max-width: 100%;
-  max-height: 100%;
+  /* max-height: 100%; */
   object-fit: cover;
-  height: 27vw;
-  width: 100%; }
-
-.works-image figcaption {
-  position: absolute;
-  align-items: center;
-  top: 0;
-  bottom: 0px;
-  left: 0;
-  right: 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  z-index: 1; }
+  height: 23vw;
+  width: 100%;
+}
 
 .works-image a {
   position: absolute;
@@ -73,7 +70,9 @@ html, body {
   bottom: 0px;
   left: 0;
   right: 0px;
-  z-index: 1; }
+  z-index: 1;
+  margin: 10px 20px;
+}
 
 .works-image h3 {
   text-align: center; }
@@ -106,7 +105,8 @@ html, body {
 .navbar-light .navbar-nav .nav-link {
   font-size: 16px;
   font-weight: 500;
-  letter-spacing: 0.2px; }
+  letter-spacing: 0.1px;
+}
 
 .navbar-light .navbar-brand {
   font-weight: 500;
@@ -125,7 +125,7 @@ html, body {
   margin-left: 0.5rem; }
 
 .navbar-brand img{
-  width:250px;
+  width: 200px;
 }
 
 .project {
