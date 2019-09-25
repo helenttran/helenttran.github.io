@@ -16,7 +16,8 @@ html, body {
   object-fit: cover; }
 
 .col-md-4 {
-  padding: 0 10px 0px 0; }
+  padding: 0;
+}
 
 .holder {
   margin-left: auto;
@@ -45,10 +46,13 @@ html, body {
 
 .works-section {
   width: calc(100% - -10px);
-  margin-bottom: 50px; }
+  margin-bottom: 50px
+}
 
 .works-image {
   position: relative;
+  height: 23vw;
+  margin: 10px;
 }
 
 .works-image img {
@@ -64,44 +68,29 @@ html, body {
   width: 100%;
 }
 
-.works-image a {
+.works-section a {
   position: absolute;
   top: 0;
   bottom: 0px;
   left: 0;
   right: 0px;
   z-index: 1;
-  margin: 10px 20px;
+  height: 23vw;
 }
 
 .works-image h3 {
   text-align: center; }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 10px;
-  left: 0;
-  right: 10px;
-  z-index: 2;
-  opacity: 0;
-  transition: 0.5s ease;
-  color: white;
-  background-color: rgba(247, 210, 198, 0.85); }
-
-.works-image:hover .overlay {
-  opacity: 1; }
-
-.row {
-  margin: 0;
-  display: flex;
-  justify-content: center; }
+/* .row {
+  margin: 0; */
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: wrap; */
+/* } */
 
 .navbar {
   padding: 30px 0; }
 
-/*.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link
- * color: $pink */
 .navbar-light .navbar-nav .nav-link {
   font-size: 16px;
   font-weight: 500;
@@ -112,13 +101,9 @@ html, body {
   font-weight: 500;
   font-size: 23px; }
 
-/*	&:hover, &:focus
- * color: $dark-pink */
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
   font-weight: 700; }
 
-/*.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover
- * color: $dark-pink */
 .navbar-expand-md .navbar-nav .nav-link {
   padding: 0;
   margin-right: 0.5rem;
@@ -155,5 +140,3 @@ html, body {
 .col-md-6 {
   padding: 0px;
 }
-
-/*# sourceMappingURL=style.css.map */
