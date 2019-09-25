@@ -118,7 +118,7 @@ html, body {
   padding: 20px; }
   .project .project-description {
     margin: 0 10% 50px; }
-  .project .project-cover {
+.project-cover {
     padding-bottom: 20px;
     padding: 5px;
     width: 100%; }
