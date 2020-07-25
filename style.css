@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 0.4px;
+    background-color: #FFF5F5;
 }
 
 .menu {
@@ -173,6 +174,12 @@ html, body {
 .col-md-6 {
     padding: 0px;
     position: relative;
+}
+
+.inner-container {
+    color: #FFF;
+    width: 100%;
+    text-align: center;
 }
 
 @media (max-width: 766px) {
